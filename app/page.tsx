@@ -127,7 +127,7 @@ export default function FlawlessRecordLanding() {
                   </li>
                   <li className="flex items-start space-x-3">
                     <span className="text-red-500 font-bold text-xl">×</span>
-                    <span>Can't capture room acoustics when recording from a distance</span>
+                    <span>Can&apos;t capture room acoustics when recording from a distance</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <span className="text-red-500 font-bold text-xl">×</span>
@@ -224,7 +224,7 @@ export default function FlawlessRecordLanding() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-gray-900">100% Private</h3>
                 <p className="text-gray-600">
-                  All processing happens on your device. We don't collect, store, or transmit any of your data or recordings.
+                  All processing happens on your device. We don&apos;t collect, store, or transmit any of your data or recordings.
                 </p>
               </div>
               
@@ -518,12 +518,12 @@ export default function FlawlessRecordLanding() {
                       <li>Accessible only to you through your device</li>
                       <li>Never uploaded to any server or cloud service by our app</li>
                       <li>Included in your iPhone backups (if you have iCloud or iTunes backup enabled)</li>
-                      <li>Subject to your device's security and your own sharing choices</li>
+                      <li>Subject to your device&apos;s security and your own sharing choices</li>
                     </ul>
                   </div>
 
                   <div>
-                    <h4 className="text-xl font-semibold mb-3">6. Children's Privacy</h4>
+                    <h4 className="text-xl font-semibold mb-3">6. Children&apos;s Privacy</h4>
                     <p>
                       Since we do not collect any data whatsoever, Flawless Record is safe for users of all ages. We do not knowingly collect personal information from anyone, including children under 13.
                     </p>
@@ -532,7 +532,7 @@ export default function FlawlessRecordLanding() {
                   <div>
                     <h4 className="text-xl font-semibold mb-3">7. Changes to This Privacy Policy</h4>
                     <p>
-                      We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date. Since we don't collect your contact information, we cannot notify you directly of changes.
+                      We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date. Since we don&apos;t collect your contact information, we cannot notify you directly of changes.
                     </p>
                   </div>
 
@@ -564,7 +564,7 @@ export default function FlawlessRecordLanding() {
                   <div>
                     <h4 className="text-xl font-semibold mb-3">1. Acceptance of Terms</h4>
                     <p>
-                      By downloading, installing, or using Flawless Record ("the App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.
+                      By downloading, installing, or using Flawless Record (&quot;the App&quot;), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.
                     </p>
                   </div>
 
@@ -615,7 +615,7 @@ export default function FlawlessRecordLanding() {
                   <div>
                     <h4 className="text-xl font-semibold mb-3">7. Refunds</h4>
                     <p>
-                      All purchases are processed through the Apple App Store and are subject to Apple's refund policy. We do not process refunds directly. If you believe you are entitled to a refund, please contact Apple Support.
+                      All purchases are processed through the Apple App Store and are subject to Apple&apos;s refund policy. We do not process refunds directly. If you believe you are entitled to a refund, please contact Apple Support.
                     </p>
                   </div>
 
