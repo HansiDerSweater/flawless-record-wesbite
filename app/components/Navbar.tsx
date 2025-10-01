@@ -12,10 +12,10 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
-            <div className="bg-gradient-to-br from-purple-600 to-pink-600 p-2 rounded-lg">
+            <div className="bg-gradient-to-br from-purple-600 to-fuchsia-600 p-2 rounded-lg">
               <Mic className="h-6 w-6 text-white" />
             </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+            <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-fuchsia-600 bg-clip-text text-transparent">
               Flawless Record
             </span>
           </div>
@@ -29,7 +29,7 @@ export default function Navbar() {
             <a 
               href="https://apps.apple.com/app/flawless-record" 
               target="_blank"
-              className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-2 rounded-lg hover:shadow-lg transition"
+              className="bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition"
             >
               Download Now
             </a>
@@ -54,7 +54,7 @@ export default function Navbar() {
             <a 
               href="https://apps.apple.com/app/flawless-record" 
               target="_blank"
-              className="block bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-2 rounded-lg text-center"
+              className="block bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white px-6 py-2 rounded-full text-center"
             >
               Download Now
             </a>

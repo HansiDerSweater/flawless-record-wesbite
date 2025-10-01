@@ -2,6 +2,7 @@
 
 import { Mic } from "lucide-react";
 
+// Footer Component
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300">
@@ -9,7 +10,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="bg-gradient-to-br from-purple-600 to-pink-600 p-2 rounded-lg">
+              <div className="bg-gradient-to-br from-purple-600 to-fuchsia-600 p-2 rounded-lg">
                 <Mic className="h-5 w-5 text-white" />
               </div>
               <span className="text-lg font-bold text-white">Flawless Record</span>

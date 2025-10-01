@@ -10,32 +10,32 @@ export default function FlawlessRecordLanding() {
       
       <main className="flex-1 text-black">
         {/* Hero Section */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-purple-50 via-pink-50 to-white py-20 md:py-32">
+        <section className="relative overflow-hidden bg-gradient-to-br from-purple-50 via-fuchsia-50 to-white py-20 md:py-32">
           <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
           <div className="container mx-auto px-4 md:px-6 relative">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
-                <div className="inline-block bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-semibold">
+                <div className="inline-block bg-purple-600 text-white px-4 py-2 rounded-full text-sm font-bold">
                   Built for Hip-Hop Producers
                 </div>
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                  Record <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Flawlessly</span> With Bluetooth Freedom
+                  Record <span className="bg-gradient-to-r from-purple-600 to-fuchsia-600 bg-clip-text text-transparent">Flawlessly</span> With Bluetooth Freedom
                 </h1>
-                <p className="text-xl text-gray-600 leading-relaxed">
-                  The only iOS app that lets you record with your iPhone's built-in microphone while monitoring through Bluetooth headphones. Perfect for sampling, instrument recording, and capturing room acoustics.
+                <p className="text-xl text-gray-700 leading-relaxed">
+                  The only iOS app that lets you record with your iPhone&apos;s built-in microphone while monitoring through Bluetooth headphones. Perfect for sampling, instrument recording, and capturing room acoustics.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a 
                     href="https://apps.apple.com/app/flawless-record"
                     target="_blank"
-                    className="inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:shadow-2xl hover:scale-105 transition-all"
+                    className="inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white px-8 py-4 rounded-full text-lg font-bold hover:shadow-2xl hover:scale-105 transition-all"
                   >
                     Download on App Store
                     <ExternalLink className="ml-2 h-5 w-5" />
                   </a>
                   <a 
                     href="#how-it-works"
-                    className="inline-flex items-center justify-center border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-purple-50 transition"
+                    className="inline-flex items-center justify-center border-2 border-purple-600 text-purple-600 px-8 py-4 rounded-full text-lg font-bold hover:bg-purple-50 transition"
                   >
                     See How It Works
                     <ChevronRight className="ml-2 h-5 w-5" />
@@ -44,39 +44,39 @@ export default function FlawlessRecordLanding() {
                 <div className="flex items-center space-x-6 pt-4">
                   <div className="flex items-center space-x-2">
                     <Shield className="h-5 w-5 text-green-600" />
-                    <span className="text-sm text-gray-600">100% Private</span>
+                    <span className="text-sm text-gray-700 font-medium">100% Private</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <Zap className="h-5 w-5 text-yellow-600" />
-                    <span className="text-sm text-gray-600">One-Time Purchase</span>
+                    <Zap className="h-5 w-5 text-amber-500" />
+                    <span className="text-sm text-gray-700 font-medium">One-Time Purchase</span>
                   </div>
                 </div>
               </div>
               
               <div className="relative">
-                <div className="relative bg-gradient-to-br from-purple-600 to-pink-600 rounded-3xl p-1 shadow-2xl">
+                <div className="relative bg-gradient-to-br from-purple-600 to-fuchsia-600 rounded-3xl p-1 shadow-2xl">
                   <div className="bg-white rounded-3xl p-8">
                     <div className="space-y-6">
-                      <div className="flex items-center justify-between p-6 bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl">
+                      <div className="flex items-center justify-between p-6 bg-gradient-to-r from-purple-50 to-fuchsia-50 rounded-2xl border-2 border-purple-200">
                         <div className="flex items-center space-x-4">
                           <div className="bg-white p-3 rounded-full shadow-lg">
                             <Mic className="h-8 w-8 text-purple-600" />
                           </div>
                           <div>
-                            <div className="font-semibold text-lg">iPhone Mic</div>
+                            <div className="font-bold text-lg text-gray-900">iPhone Mic</div>
                             <div className="text-sm text-gray-600">Recording Source</div>
                           </div>
                         </div>
                         <div className="h-3 w-3 bg-green-500 rounded-full animate-pulse"></div>
                       </div>
                       
-                      <div className="flex items-center justify-between p-6 bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl">
+                      <div className="flex items-center justify-between p-6 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl border-2 border-blue-200">
                         <div className="flex items-center space-x-4">
                           <div className="bg-white p-3 rounded-full shadow-lg">
                             <Headphones className="h-8 w-8 text-blue-600" />
                           </div>
                           <div>
-                            <div className="font-semibold text-lg">Bluetooth Headphones</div>
+                            <div className="font-bold text-lg text-gray-900">Bluetooth Headphones</div>
                             <div className="text-sm text-gray-600">Monitor + Metronome</div>
                           </div>
                         </div>
@@ -84,7 +84,7 @@ export default function FlawlessRecordLanding() {
                       </div>
                       
                       <div className="text-center py-4">
-                        <div className="inline-flex items-center space-x-2 bg-green-100 text-green-700 px-6 py-3 rounded-full font-semibold">
+                        <div className="inline-flex items-center space-x-2 bg-green-100 text-green-700 px-6 py-3 rounded-full font-bold border-2 border-green-300">
                           <Check className="h-5 w-5" />
                           <span>Perfect Room Acoustics</span>
                         </div>
@@ -94,11 +94,11 @@ export default function FlawlessRecordLanding() {
                 </div>
                 
                 {/* Floating Elements */}
-                <div className="absolute -top-6 -right-6 bg-yellow-400 rounded-2xl p-4 shadow-xl transform rotate-12 hidden lg:block">
-                  <Music className="h-8 w-8 text-yellow-900" />
+                <div className="absolute -top-6 -right-6 bg-amber-400 rounded-2xl p-4 shadow-xl transform rotate-12 hidden lg:block">
+                  <Music className="h-8 w-8 text-amber-900" />
                 </div>
-                <div className="absolute -bottom-6 -left-6 bg-green-400 rounded-2xl p-4 shadow-xl transform -rotate-12 hidden lg:block">
-                  <Zap className="h-8 w-8 text-green-900" />
+                <div className="absolute -bottom-6 -left-6 bg-emerald-400 rounded-2xl p-4 shadow-xl transform -rotate-12 hidden lg:block">
+                  <Zap className="h-8 w-8 text-emerald-900" />
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function FlawlessRecordLanding() {
             <div className="max-w-4xl mx-auto text-center space-y-6 mb-16">
               <h2 className="text-4xl md:text-5xl font-bold">The Problem We Solve</h2>
               <p className="text-xl text-gray-600">
-                Ever tried to record a piano in your studio's large hall while needing to hear a metronome? Traditional recording forces you to choose between quality and convenience.
+                Ever tried to record a piano in your studio&apos;s large hall while needing to hear a metronome? Traditional recording forces you to choose between quality and convenience.
               </p>
             </div>
             
@@ -147,7 +147,7 @@ export default function FlawlessRecordLanding() {
                 <ul className="space-y-4">
                   <li className="flex items-start space-x-3">
                     <Check className="text-green-500 h-6 w-6 flex-shrink-0" />
-                    <span>Use iPhone's high-quality built-in microphone</span>
+                    <span>Use iPhone&apos;s high-quality built-in microphone</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <Check className="text-green-500 h-6 w-6 flex-shrink-0" />
@@ -178,65 +178,66 @@ export default function FlawlessRecordLanding() {
             </div>
             
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow">
                 <div className="bg-purple-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
                   <Mic className="h-8 w-8 text-purple-600" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">iPhone Mic Recording</h3>
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">iPhone Mic Recording</h3>
                 <p className="text-gray-600">
-                  Use your iPhone's superior built-in microphone for crystal-clear recordings, even while connected to Bluetooth headphones.
+                  Use your iPhone&apos;s superior built-in microphone for crystal-clear recordings, even while connected to Bluetooth headphones.
                 </p>
               </div>
               
-              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow">
                 <div className="bg-blue-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
                   <Headphones className="h-8 w-8 text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Bluetooth Monitoring</h3>
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">Bluetooth Monitoring</h3>
                 <p className="text-gray-600">
                   Monitor your performance and hear the metronome through your Bluetooth headphones without affecting the recording.
                 </p>
               </div>
               
-              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition">
-                <div className="bg-pink-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
-                  <Music className="h-8 w-8 text-pink-600" />
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow">
+                <div className="bg-fuchsia-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                  <Music className="h-8 w-8 text-fuchsia-600" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Built-in Metronome</h3>
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">Built-in Metronome</h3>
                 <p className="text-gray-600">
                   Keep perfect time with our integrated metronome that only you can hear through your headphones.
                 </p>
               </div>
               
-              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition">
-                <div className="bg-green-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
-                  <Zap className="h-8 w-8 text-green-600" />
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow">
+                <div className="bg-emerald-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                  <Zap className="h-8 w-8 text-emerald-600" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Room Acoustics</h3>
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">Room Acoustics</h3>
                 <p className="text-gray-600">
                   Capture the natural reverb and ambience of your space by placing your phone anywhere in the room.
                 </p>
               </div>
               
-              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition">
-                <div className="bg-yellow-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
-                  <Shield className="h-8 w-8 text-yellow-600" />
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow">
+                <div className="bg-amber-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                  <Shield className="h-8 w-8 text-amber-600" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">100% Private</h3>
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">100% Private</h3>
                 <p className="text-gray-600">
                   All processing happens on your device. We don't collect, store, or transmit any of your data or recordings.
                 </p>
               </div>
               
-              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition">
-                <div className="bg-red-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
-                  <Music className="h-8 w-8 text-red-600" />
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow">
+                <div className="bg-rose-100 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                  <Music className="h-8 w-8 text-rose-600" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Sample Ready</h3>
+                <h3 className="text-2xl font-bold mb-4 text-gray-900">Sample Ready</h3>
                 <p className="text-gray-600">
                   Perfect for hip-hop producers and beat makers who need quick, high-quality samples from instruments and vocals.
                 </p>
               </div>
+
             </div>
           </div>
         </section>
@@ -253,11 +254,11 @@ export default function FlawlessRecordLanding() {
             
             <div className="max-w-4xl mx-auto space-y-8">
               <div className="flex items-start space-x-6">
-                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold shadow-lg">
+                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-purple-600 to-fuchsia-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold shadow-lg">
                   1
                 </div>
                 <div className="flex-1 pt-2">
-                  <h3 className="text-2xl font-bold mb-2">Connect Your Bluetooth Headphones</h3>
+                  <h3 className="text-2xl font-bold mb-2 text-gray-900">Connect Your Bluetooth Headphones</h3>
                   <p className="text-gray-600 text-lg">
                     Pair your favorite Bluetooth headphones or earbuds with your iPhone as you normally would.
                   </p>
@@ -265,11 +266,11 @@ export default function FlawlessRecordLanding() {
               </div>
               
               <div className="flex items-start space-x-6">
-                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold shadow-lg">
+                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-purple-600 to-fuchsia-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold shadow-lg">
                   2
                 </div>
                 <div className="flex-1 pt-2">
-                  <h3 className="text-2xl font-bold mb-2">Position Your iPhone</h3>
+                  <h3 className="text-2xl font-bold mb-2 text-gray-900">Position Your iPhone</h3>
                   <p className="text-gray-600 text-lg">
                     Place your iPhone wherever you want to capture the best sound - close to the instrument, across the room for ambience, or anywhere in between.
                   </p>
@@ -277,11 +278,11 @@ export default function FlawlessRecordLanding() {
               </div>
               
               <div className="flex items-start space-x-6">
-                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold shadow-lg">
+                <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-purple-600 to-fuchsia-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold shadow-lg">
                   3
                 </div>
                 <div className="flex-1 pt-2">
-                  <h3 className="text-2xl font-bold mb-2">Record Flawlessly</h3>
+                  <h3 className="text-2xl font-bold mb-2 text-gray-900">Record Flawlessly</h3>
                   <p className="text-gray-600 text-lg">
                     Hit record and play. Hear the metronome through your headphones while the iPhone mic captures pristine audio with natural room acoustics.
                   </p>
@@ -312,7 +313,7 @@ export default function FlawlessRecordLanding() {
               <div className="bg-white rounded-2xl p-8 shadow-lg">
                 <h3 className="text-2xl font-bold mb-4">🎤 Vocal Sampling</h3>
                 <p className="text-gray-600 mb-4">
-                  Perfect for hip-hop producers who need clean vocal samples. Monitor your performance while recording with the iPhone's superior microphone.
+                  Perfect for hip-hop producers who need clean vocal samples. Monitor your performance while recording with the iPhone&apos;s superior microphone.
                 </p>
                 <p className="text-sm text-purple-600 font-semibold">
                   Example: Record vocal chops and ad-libs for your beats without any metronome bleed.
@@ -353,45 +354,45 @@ export default function FlawlessRecordLanding() {
             </div>
             
             <div className="max-w-md mx-auto">
-              <div className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-3xl p-1 shadow-2xl">
+              <div className="bg-gradient-to-br from-purple-600 to-fuchsia-600 rounded-3xl p-1 shadow-2xl">
                 <div className="bg-white rounded-3xl p-8">
                   <div className="text-center space-y-6">
                     <div>
-                      <div className="text-5xl font-bold mb-2">$1.99</div>
-                      <div className="text-gray-600">One-time purchase</div>
+                      <div className="text-5xl font-bold mb-2 text-gray-900">$1.99</div>
+                      <div className="text-gray-600 font-medium">One-time purchase</div>
                     </div>
                     
                     <ul className="space-y-4 text-left">
                       <li className="flex items-start space-x-3">
-                        <Check className="text-green-500 h-6 w-6 flex-shrink-0 mt-0.5" />
-                        <span>Unlimited recordings</span>
+                        <Check className="text-emerald-500 h-6 w-6 flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-700">Unlimited recordings</span>
                       </li>
                       <li className="flex items-start space-x-3">
-                        <Check className="text-green-500 h-6 w-6 flex-shrink-0 mt-0.5" />
-                        <span>Built-in metronome</span>
+                        <Check className="text-emerald-500 h-6 w-6 flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-700">Built-in metronome</span>
                       </li>
                       <li className="flex items-start space-x-3">
-                        <Check className="text-green-500 h-6 w-6 flex-shrink-0 mt-0.5" />
-                        <span>iPhone mic + Bluetooth monitoring</span>
+                        <Check className="text-emerald-500 h-6 w-6 flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-700">iPhone mic + Bluetooth monitoring</span>
                       </li>
                       <li className="flex items-start space-x-3">
-                        <Check className="text-green-500 h-6 w-6 flex-shrink-0 mt-0.5" />
-                        <span>100% private - no data collection</span>
+                        <Check className="text-emerald-500 h-6 w-6 flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-700">100% private - no data collection</span>
                       </li>
                       <li className="flex items-start space-x-3">
-                        <Check className="text-green-500 h-6 w-6 flex-shrink-0 mt-0.5" />
-                        <span>Lifetime updates</span>
+                        <Check className="text-emerald-500 h-6 w-6 flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-700">Lifetime updates</span>
                       </li>
                       <li className="flex items-start space-x-3">
-                        <Check className="text-green-500 h-6 w-6 flex-shrink-0 mt-0.5" />
-                        <span>No subscriptions or in-app purchases</span>
+                        <Check className="text-emerald-500 h-6 w-6 flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-700">No subscriptions or in-app purchases</span>
                       </li>
                     </ul>
                     
                     <a 
                       href="https://apps.apple.com/app/flawless-record"
                       target="_blank"
-                      className="block bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:shadow-2xl transition"
+                      className="block bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white px-8 py-4 rounded-full text-lg font-bold hover:shadow-2xl transition-all"
                     >
                       Get Flawless Record
                     </a>
@@ -407,18 +408,18 @@ export default function FlawlessRecordLanding() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-br from-purple-600 to-pink-600 text-white">
+        <section className="py-20 bg-gradient-to-br from-purple-600 to-fuchsia-600 text-white">
           <div className="container mx-auto px-4 md:px-6 text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Ready to Record Flawlessly?
             </h2>
-            <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
+            <p className="text-xl mb-8 max-w-2xl mx-auto opacity-95">
               Join thousands of producers and musicians who are capturing professional-quality recordings with Flawless Record.
             </p>
             <a 
               href="https://apps.apple.com/app/flawless-record"
               target="_blank"
-              className="inline-flex items-center bg-white text-purple-600 px-8 py-4 rounded-xl text-lg font-semibold hover:shadow-2xl hover:scale-105 transition-all"
+              className="inline-flex items-center bg-white text-purple-600 px-8 py-4 rounded-full text-lg font-bold hover:shadow-2xl hover:scale-105 transition-all"
             >
               Download Now - $1.99
               <ExternalLink className="ml-2 h-5 w-5" />
@@ -481,15 +482,15 @@ export default function FlawlessRecordLanding() {
                   <div>
                     <h4 className="text-xl font-semibold mb-3">2. How the App Works</h4>
                     <p>
-                      Flawless Record processes all audio recordings entirely on your device (client-side). Your recordings are saved directly to your iPhone's local storage and remain under your complete control. The app requires access to:
+                      Flawless Record processes all audio recordings entirely on your device (client-side). Your recordings are saved directly to your iPhone&apos;s local storage and remain under your complete control. The app requires access to:
                     </p>
                     <ul className="list-disc list-inside space-y-2 ml-4 mt-2">
-                      <li><strong>Microphone:</strong> To record audio using your iPhone's built-in microphone</li>
+                      <li><strong>Microphone:</strong> To record audio using your iPhone&apos;s built-in microphone</li>
                       <li><strong>Bluetooth:</strong> To enable monitoring through your Bluetooth headphones</li>
                       <li><strong>Local Storage:</strong> To save your recordings on your device</li>
                     </ul>
                     <p className="mt-2">
-                      These permissions are only used for the app's core functionality and never for data collection.
+                      These permissions are only used for the app&apos;s core functionality and never for data collection.
                     </p>
                   </div>
 
@@ -503,7 +504,7 @@ export default function FlawlessRecordLanding() {
                   <div>
                     <h4 className="text-xl font-semibold mb-3">4. App Store Purchase Information</h4>
                     <p>
-                      When you purchase Flawless Record through the Apple App Store, Apple processes your payment and personal information according to Apple's Privacy Policy. We, as the app developer, do not receive or have access to your personal payment information or Apple ID details.
+                      When you purchase Flawless Record through the Apple App Store, Apple processes your payment and personal information according to Apple&apos;s Privacy Policy. We, as the app developer, do not receive or have access to your personal payment information or Apple ID details.
                     </p>
                   </div>
 
@@ -538,7 +539,7 @@ export default function FlawlessRecordLanding() {
                   <div>
                     <h4 className="text-xl font-semibold mb-3">8. Contact Us</h4>
                     <p>
-                      If you have any questions about this Privacy Policy or Flawless Record's privacy practices, please contact us at:
+                      If you have any questions about this Privacy Policy or Flawless Record&apos;s privacy practices, please contact us at:
                     </p>
                     <p className="mt-2">
                       Email: <a href="mailto:itsolutionsbiermeier@gmail.com" className="text-purple-600 hover:underline">itsolutionsbiermeier@gmail.com</a>
@@ -548,7 +549,7 @@ export default function FlawlessRecordLanding() {
                   <div className="bg-green-50 border-2 border-green-200 rounded-xl p-6 mt-6">
                     <p className="font-semibold text-green-900 mb-2">🔒 Privacy Summary</p>
                     <p className="text-green-800">
-                      Flawless Record respects your privacy completely. Everything stays on your device. We don't see, store, or have access to any of your data or recordings. Period.
+                      Flawless Record respects your privacy completely. Everything stays on your device. We don&apos;t see, store, or have access to any of your data or recordings. Period.
                     </p>
                   </div>
                 </div>
@@ -621,7 +622,7 @@ export default function FlawlessRecordLanding() {
                   <div>
                     <h4 className="text-xl font-semibold mb-3">8. Disclaimer of Warranties</h4>
                     <p>
-                      Flawless Record is provided "as is" without warranty of any kind, either express or implied. While we strive to provide a reliable and high-quality app, we do not guarantee that:
+                      Flawless Record is provided &quot;as is&quot; without warranty of any kind, either express or implied. While we strive to provide a reliable and high-quality app, we do not guarantee that:
                     </p>
                     <ul className="list-disc list-inside space-y-2 ml-4 mt-2">
                       <li>The App will be error-free or uninterrupted</li>
@@ -701,7 +702,7 @@ export default function FlawlessRecordLanding() {
                   <div className="bg-blue-50 border-2 border-blue-200 rounded-xl p-6 mt-6">
                     <p className="font-semibold text-blue-900 mb-2">📋 Terms Summary</p>
                     <p className="text-blue-800">
-                      Use Flawless Record responsibly and legally. You own your recordings. One-time $1.99 purchase gives you lifetime access. Be respectful of others' privacy when recording.
+                      Use Flawless Record responsibly and legally. You own your recordings. One-time $1.99 purchase gives you lifetime access. Be respectful of others&apos; privacy when recording.
                     </p>
                   </div>
                 </div>
@@ -710,7 +711,8 @@ export default function FlawlessRecordLanding() {
           </div>
         </section>
       </main>
+      
       <Footer />
     </div>
-  );
+  )
 }
